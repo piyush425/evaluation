@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evaluation</title>
+    <style>
+
+
+     .container1{
+            display: flex;
+            justify-content: center;
+            margin-left: 6%;
+            
+        }
+        #box2{
+            background-color: rgb(91, 91, 224);
+            
+
+        }
+        #box3{
+            background-color: aqua;
+        }
+        .box1{
+            height: 50px;
+            width: 200px;
+           
+            display: flex;
+            align-items: center;
+            background-color: yellow;
+            margin-right: 15%;
+    margin-left: 3%;
+        
+        }
+        .logo{
+            height: 30px;
+            width: 30px;
+            border: solid 2px;
+        }
+        .para{
+            margin-left: 23%;
+        }
+        .logo{
+            margin-left: 5%;
+    border-radius: 50%;
+    background-color: white;
+}
+ h1{
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-top: 2%;;
+}
+.container2{
+    display: grid;
+    grid-gap: 3%;
+   
+    grid-template: "a a a"
+                   "b b b"
+                   "c d e"
+                   "f g h";
+
+}
+.class1{
+    grid-area: a;
+    height: 100px;
+   
+    display: flex;
+    justify-content: center;
+    
+
+}
+.class1 h1{
+    font-size: 40px;
+
+}
+.class2{
+    grid-area: b;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 29px;
+    width: 14%;
+    background-color: rgb(170, 177, 177);
+    
+}
+.grandchild{
+    margin-top: 2%;
+}
+#child1{
+    background-color: aqua;
+}
+.class3{
+    grid-area: c;
+    height: 200px;
+    
+}
+.class4{
+    grid-area: d;
+    height: 200px;
+    
+}
+.class5{
+    grid-area:e;
+    height: 200px;
+    
+}
+.class6{
+    grid-area: f;
+    height: 256px;
+   
+}
+.class7{
+    grid-area: g;
+    height: 256px;
+    
+}
+.class8{
+    grid-area: h;
+    height: 256px;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.image{
+    height: 100%;
+    width:100%;
+}
+.apply{
+    height: 30px;
+    width: 60px;
+   border:solid 2px;
+}
+.class6-8-child div{
+    margin-top: 22px;
+}
+
+.apply{
+    margin-bottom: 2%;
+    color: aqua;
+    padding: 13px;
+    width: 85px;
+    height: 22px;
+    font-weight: bold;
+}
+.class6-8-child{
+    margin-top: 0%;
+    width: 70%;
+}
+.class-6-8para{
+    color: grey;
+}
+    
+
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="box1">
+            <div class="logo"></div>
+            <div class="para">
+                <div><h1>scholarship</h1></div>
+                <div>available</div>
+            </div>
+        </div>
+        <div id="box2" class="box1">
+            <div class="logo"></div>
+            <div class="para">
+                <div>
+                    <h1>scholarship</h1>
+                </div>
+                <div>available</div>
+            </div>
+        </div>
+        <div id="box3" class="box1">
+            <div class="logo"></div>
+            <div class="para">
+                <div>
+                    <h1>scholarship</h1>
+                </div>
+                <div>available</div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="class1"><h1>Popular Program</h1></div>
+        <div class="class2">
+            <div id="child1" class="child"><div class="grandchild">Graduate</div></div>
+            <div class="child"><div class="grandchild">Post Graduate</div></div>
+            <div class="child"><div class="grandchild">Phd Schlorship</div></div>
+            <div class="child"><div class="grandchild">Training</div></div>
+        </div>
+        <div class="class3">
+            <div class="image">
+                <img src="https://ischoolconnect.com/blog/wp-content/uploads/2019/02/Chemical-engineering-FI-science-teacher-students-team-working-with-chemicals-lab_39730-1450-1.jpg" alt="">
+            </div>
+        </div>
+        <div class="class4">
+            <div class="image">
+                <img src="https://res.cloudinary.com/highereducation/image/upload/f_auto,fl_lossy,q_auto/c_fill,w_1200,h_628/v1566232749/BestColleges.com/BC-Career-Mechanical_engineering_vu3sha.jpg" alt="">
+            </div>
+        </div>
+        <div class="class5">
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjZUzactHkmMEpD0OW8yIeOMmKlmn_jlBfHME8WdqsZlKqDSfdsR2SGWnCvbYpCQb8Nk&usqp=CAU" alt="">
+            </div>
+        </div>
+        <div class="class6">
+            <div class="class6-8-child">
+                <div>Agriculture</div>
+                <div>
+                    <h1>Chemical Engineering</h1>
+                </div>
+                <div class="class-6-8para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque aspernatur nostrum quisquam neque hic
+                    quasi quis quam saepe delectus?</div>
+                <div class="apply">Apply Now</div>
+            </div>
+        </div>
+        <div class="class7">
+            <div class="class6-8-child">
+                <div>Agriculture</div>
+                <div>
+                    <h1>Mechanical Engineering</h1>
+                </div>
+                <div class="class-6-8para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque aspernatur nostrum quisquam neque hic
+                    quasi quis quam saepe delectus?</div>
+                <div class="apply">Apply Now</div>
+            </div>
+           
+        </div>
+        <div class="class8">
+            <div class="class6-8-child">
+                <div>Agriculture</div>
+                <div>
+                    <h1>Bio Engineering</h1>
+                </div>
+                <div class="class-6-8para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque aspernatur nostrum quisquam neque hic
+                    quasi quis quam saepe delectus?</div>
+                <div class="apply">Apply Now</div>
+            </div>   
+    </div>
+
+        
+
+    
+</body>
+</html>
